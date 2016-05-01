@@ -1,0 +1,16 @@
+#currivitae{
+    position: relative;
+    top: 70px;
+    text-align: left;
+}
+h5{
+    color:rgb(34, 102, 102);
+}
+#foot{
+    position: relative;
+    top: 740px;
+    border-top: 3px black solid;
+}
+footer{
+    padding-top: 770px;
+}

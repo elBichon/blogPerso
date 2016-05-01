@@ -1,0 +1,137 @@
+    body{
+        font-family: "Helvetica";
+        font-size: 0.8em;
+    }
+    #logo{
+        display: none;
+    }
+    #accueil{
+        width: 20px;
+    }
+    #aPropos{
+        width:20px;
+    }
+    #blog{
+        width:20px;
+    }
+    #liens{
+        width:20px;
+    }
+    #contact{
+        width:20px;
+    }
+    #corps{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        margin: auto;
+        left: 30px;
+        top: 190px;
+        text-align: justify;
+        border: 2px solid black;
+        padding: 2px;
+        overflow: auto;
+        margin: auto;
+    }
+    #corpsApropos{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        margin: auto;
+        left: 30px;
+        top: 220px;
+        text-align: justify;
+        border: 2px solid black;
+        padding: 2px;
+        overflow: auto;
+        margin: auto;
+    }
+    h4{
+        text-decoration: underline;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+a {
+    text-decoration: none;
+    color: rgb(34, 102, 102);
+}
+
+a: hover{
+    text-decoration: underline;
+    color: rgb(34, 102, 102);
+}
+    
+
+h3{
+    color: color: rgb(34, 102, 102);;
+    text-decoration: underline;
+}
+
+
+
+.nav-list{
+    margin-top: 4.8%;
+    float:left;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+    -webkit-transition: .4s ease;
+    transition: .4s ease;
+}
+.nav-list a {
+    color: #fff;
+    padding: 1.25rem 0.5rem;
+    font-size: 0.9em;
+    max-width: 140px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(34, 102, 102);
+}
+.nav-list a:focus {
+    color: #fff;
+}
+.nav-list a:hover {
+    color: rgb(34, 102, 102);
+    text-decoration: underline;
+}
+@media all and (max-device-width: 320px)
+{
+    #logo
+    {
+        display: none;
+    }
+    #liste
+    {
+        display: none;
+    }
+    #corps{
+        width: 280px;
+        height: 500px;
+        position: absolute;
+        left: 20px;
+        top: 240px;
+        border-right: 2px none;
+        text-align: justify;
+        border: 2px solid black;
+        margin: auto;
+        overflow: auto;
+        padding: 2px;
+    }
+    #corpsApropos{
+        width: 280px;
+        height: 500px;
+        position: absolute;
+        margin: auto;
+        left: 20px;
+        top: 260px;
+        text-align: justify;
+        border: 2px solid black;
+        padding: 2px;
+        overflow: auto;
+        margin: auto;
+    }
+}
+
+

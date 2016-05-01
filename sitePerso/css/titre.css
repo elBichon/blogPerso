@@ -1,0 +1,52 @@
+#titre_principal{
+    font-family: "Helvetica";
+    color: rgb(34, 102, 102);
+    display: inline-block;
+}
+#logo{
+    float:left;
+}
+header{
+border-bottom: 3px black solid;
+}
+h1, h2{
+    margin-left: 170px;
+}
+
+@media all and (max-width: 1024px){
+    #titre_principal{
+        font-family: "Helvetica";
+        color: rgb(34, 102, 102);
+    }
+}
+@media all and (max-width: 980px){
+    #titre_principal{
+        font-family: "Helvetica";
+        color: rgb(34, 102, 102);
+    }
+}
+@media all and (max-width: 900px){
+    #titre_principal{
+        font-family: "Helvetica";
+        color: rgb(34, 102, 102);
+    }
+}
+@media all and (max-width: 850px){
+    #titre_principal{
+        font-family: "Helvetica";
+        color: rgb(34, 102, 102);
+    }
+}
+@media all and (max-width: 800px){
+    #titre_principal{
+        font-family: "Helvetica";
+        color: rgb(34, 102, 102);
+    }
+}
+@media all and (max-width: 480px){
+    #titre_principal{
+        font-family: "Helvetica";
+        color: rgb(34, 102, 102);
+    }
+    
+}

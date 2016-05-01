@@ -1,0 +1,32 @@
+#links{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    text-align: justify;
+}
+#linkedin{
+    width:30px;
+}
+#github{
+    width: 30px;
+}
+@media all and (max-device-width: 320px)
+{
+    #logo
+    {
+        display: none;
+    }
+    #liste
+    {
+        display: none;
+    }
+    #links{
+        position: absolute;
+        left: 20px;
+        top: 240px;
+        text-align: justify;
+        margin: auto;
+        overflow: auto;
+        padding: 2px;
+    }
+}

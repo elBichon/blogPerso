@@ -1,0 +1,26 @@
+#mail{
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    text-align: left;
+}
+textarea{
+    width:350px;
+    height:150px;
+}
+h5{
+    color: rgb(34, 102, 102);
+}
+input[type=submit]{
+    background:#DDD;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background:rgb(34, 102, 102);
+}
+.error_message{
+    color:red;
+}
+.envoimail{
+    color:green;
+}

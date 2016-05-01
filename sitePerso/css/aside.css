@@ -1,0 +1,27 @@
+aside{
+    color:rgb(34, 102, 102);
+    border: 2px solid black;
+    width: 150px;
+    height:124px;
+    text-align: justify;
+    position: relative;
+    left:-180px;
+    top:280px;
+}
+#recherche{
+    width: 150px;
+    height:124px;
+    text-align: justify;
+    position: relative;
+    left:-180px;
+    top:250px;
+}
+@media all and (max-width: 1024px){
+    aside
+    {
+        display: none;
+        border: 0px solid black;
+        width: 0px;
+        height:0px;
+    }
+}

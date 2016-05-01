@@ -1,0 +1,31 @@
+#cv{
+    color:rgb(34, 102, 102);
+    border: 2px solid black;
+    width: 150px;
+    height:180px;
+    text-align: justify;
+    position: absolute;
+    left:-180px;
+    top:280px;
+}
+@media all and (max-width: 1024px){
+    #cv
+    {
+        color:rgb(34, 102, 102);
+        border: 2px solid black;
+        width: 150px;
+        height:180px;
+        text-align: justify;
+        position: absolute;
+        left:-180px;
+        top:280px;
+    }
+    
+}
+@media all and (max-width: 980px){
+    #cv
+    {
+        display: none;
+    }
+    
+}

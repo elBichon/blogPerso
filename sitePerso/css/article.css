@@ -1,0 +1,14 @@
+#aime{
+    width:20px;
+}
+#aimePas{
+    width:20px;
+    transform: rotate(180deg);
+}
+#listComments{
+    width: 500px;
+    height: 500px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+}

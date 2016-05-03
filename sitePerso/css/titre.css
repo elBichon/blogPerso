@@ -6,47 +6,67 @@
 #logo{
     float:left;
 }
-header{
-border-bottom: 3px black solid;
-}
 h1, h2{
     margin-left: 170px;
 }
-
 @media all and (max-width: 1024px){
     #titre_principal{
         font-family: "Helvetica";
         color: rgb(34, 102, 102);
+        position: absolute;
+        left: 0px;
+        top: 5px;
+        text-align: justify;
     }
 }
-@media all and (max-width: 980px){
+/*@media all and (max-width: 980px){
     #titre_principal{
         font-family: "Helvetica";
         color: rgb(34, 102, 102);
+        position: absolute;
+        left: 0px;
+        top: 5px;
+        text-align: justify;
     }
 }
 @media all and (max-width: 900px){
     #titre_principal{
         font-family: "Helvetica";
         color: rgb(34, 102, 102);
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        text-align: justify;
     }
 }
 @media all and (max-width: 850px){
     #titre_principal{
         font-family: "Helvetica";
         color: rgb(34, 102, 102);
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        text-align: justify;
     }
 }
 @media all and (max-width: 800px){
     #titre_principal{
         font-family: "Helvetica";
         color: rgb(34, 102, 102);
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        text-align: justify;
     }
 }
 @media all and (max-width: 480px){
     #titre_principal{
         font-family: "Helvetica";
         color: rgb(34, 102, 102);
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        text-align: justify;
     }
     
 }

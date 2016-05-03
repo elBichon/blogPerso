@@ -29,8 +29,8 @@
                 <h2>Lieux de bon aloi</h2>
             </div>
             <?php  include("includes/connect.php"); ?>
-            <?php  include("includes/menu.php"); ?>
         </header>
+        <?php  include("includes/menu.php"); ?>
         <section id="links">
         <ul>
             <li><h3>Les copains</h3></li>

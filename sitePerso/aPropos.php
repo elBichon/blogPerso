@@ -29,10 +29,9 @@
                 <h1>A PROPOS</h1>
                 <h2>Mon curriculum vitae</h2>
             </div>
-            <?php  include("includes/menu.php"); ?>
         </header>
+        <?php  include("includes/menu.php"); ?>
         <section id="corps">
-        <?php  include("includes/asideCv.php"); ?>
             <section id="currivitae">
             <h3 id="formation">FORMATION</h3>
                 <ul>

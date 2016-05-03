@@ -6,8 +6,9 @@ h3{
     text-decoration: underline;
 }
 #logo{
-    width: 100px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
 }
 #accueil{
     width: 30px;
@@ -30,8 +31,11 @@ h3{
     left: 200px;
     top: 180px;
     text-align: justify;
-    border: 2px solid black;
-    padding: 2px;
+    border: 5px solid black;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     overflow: auto;
     margin: auto;
 }
@@ -49,6 +53,24 @@ a {
 a:hover{
     text-decoration: underline;
     color: rgb(34, 102, 102);
+}
+
+@media all and (min-width: 1280px){
+    #corps{
+        width: 1100px;
+        position: absolute;
+        left: 500px;
+        top: 180px;
+        text-align: justify;
+        border: 5px solid black;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        overflow: auto;
+        margin: auto;
+    }
+    
 }
 @media all and (max-width: 1024px){
     body{
@@ -82,7 +104,10 @@ a:hover{
                 border: 2px solid black;
                 margin: auto;
                 overflow: auto;
-                padding: 2px;
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 5px;
+                padding-left: 5px;
 
             }
     h4{
@@ -139,7 +164,10 @@ a:hover{
         border-right: 2px none;
         text-align: justify;
         border: 2px solid black;
-        padding: 2px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
         overflow: auto;
         margin: auto;
     }
@@ -190,7 +218,10 @@ a:hover{
         border-right: 2px none;
         text-align: justify;
         border: 2px solid black;
-        padding: 2px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
         overflow: auto;
         margin: auto;
     }
@@ -218,7 +249,7 @@ a:hover{
         color: #fff;
     }
     .nav-list a:hover {
-        color: blue;
+        color: rgb(34, 102, 102);
         text-decoration: underline;
     }
     #liste
@@ -240,7 +271,10 @@ a:hover{
         border-right: 2px none;
         text-align: justify;
         border: 2px solid black;
-        padding: 2px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 5px;
         overflow: auto;
         margin: auto;
     }
@@ -262,13 +296,13 @@ a:hover{
         max-width: 140px;
         font-weight: bold;
         text-decoration: none;
-        color: blue;
+        color: rgb(34, 102, 102);
     }
     .nav-list a:focus {
         color: #fff;
     }
     .nav-list a:hover {
-        color: blue;
+        color: rgb(34, 102, 102);
         text-decoration: underline;
     }
     #liste
@@ -312,13 +346,13 @@ a:hover{
         max-width: 140px;
         font-weight: bold;
         text-decoration: none;
-        color: blue;
+        color: rgb(34, 102, 102);
     }
     .nav-list a:focus {
         color: #fff;
     }
     .nav-list a:hover {
-        color: blue;
+        color: rgb(34, 102, 102);
         text-decoration: underline;
     }
     #liste
@@ -351,13 +385,13 @@ a:hover{
         max-width: 140px;
         font-weight: bold;
         text-decoration: none;
-        color: blue;
+        color: rgb(34, 102, 102);
     }
     .nav-list a:focus {
         color: #fff;
     }
     .nav-list a:hover {
-        color: blue;
+        color: rgb(34, 102, 102);
         text-decoration: underline;
     }
     #liste

@@ -1,98 +1,31 @@
-/* Menu icon
- ============= */
-.menu-icon:hover {
-    cursor: pointer;
-}
-.menu-icon {
-    float:left;
-    position: relative;
-    display:  inline-block;
-    width: 15px;
-    height: 15px;
-    margin-top: 150px;
-    margin-left: 20px;
-    -webkit-transition: .4s ease;
-    transition: .4s ease;
-    
-}
-.menu-icon span {
-    margin: 0 auto;
-    position: relative;
-    top: 12px;
-}
-.menu-icon span:before, .menu-icon span:after {
+#burger{
+    width: 90px;
     position: absolute;
-    content: '';
+    left: 10px;
+    top: 180px;
+    text-align: justify;
+    margin: auto;
 }
-.menu-icon span, .menu-icon span:before, .menu-icon span:after {
-    width: 80px;
-    height: 12px;
-    background-color: rgb(34, 102, 102);
-    display: block;
-}
-.menu-icon span:before {
-    margin-top: -20px;
-}
-.menu-icon span:after {
-    margin-top: 20px;
-}
-/* My toggle animation on menu-icon */
-.menu-animation {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-/* Menu-icon end */
-
-/* Nav-list
- ============= */
-.nav-list{
-    margin-top: 4.8%;
-    float:left;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    list-style: none;
-    padding-left: 0;
-    -webkit-transition: .4s ease;
-    transition: .4s ease;
-}
-.nav-list a {
-    color: #fff;
-    padding: 1.25rem 0.5rem;
-    font-size: 0.9em;
-    max-width: 140px;
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(34, 102, 102);
-}
-.nav-list a:focus {
-    color: #fff;
-}
-.nav-list a:hover {
-    color: rgb(34, 102, 102);
-    text-decoration: underline;
-}
-
-.hidden{
-    display:none;
-    color: rgb(34, 102, 102);
-}
-
-/* My toggle animation on nav-list */
-.nav-animation {
-    -webkit-transform: translateX(30px);
-    -moz-transform: translateX(30px);
-    transform: translateX(30px);
-}
-/* Nav-list end */
-
-.en {
-    margin-left:100px;
-}
-@media all and (max-width: 1024px){
-    .menu-icon {
-        display:none;
+@media all and (max-width: 1024px)
+{
+    #burger{
+        width: 90px;
+        position: absolute;
+        left: 80px;
+        top: 100px;
+        text-align: justify;
+        margin: auto;
     }
+}
 
+@media all and (max-width: 980px)
+{
+    #burger{
+        width: 90px;
+        position: absolute;
+        left: 80px;
+        top: 100px;
+        text-align: justify;
+        margin: auto;
+    }
 }

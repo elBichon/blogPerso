@@ -33,32 +33,32 @@
                 <h2>Bienvenue sur le site de REUGLEWICZ Jean-Edouard</h2>
             </div>
             <?php  include("includes/connect.php"); ?>
-            <?php  include("includes/menu.php"); ?>
         </header>
+            <?php  include("includes/menu.php"); ?>
             <section id="corps">
-            <?php  include("includes/aside.php"); ?>
                 <ul>
                     <div id="moi">
-                    <li><h3><img src="images/experience.png" alt="moi" id="moi" width=20px/>  Qui suis-je ?</h3></li>
+                    <h3><img src="images/experience.png" alt="moi" id="moi" width=20px/>  Qui suis-je ?</h3>
                         <p>Je suis actuellement étudiant à l'institut mines-telecom, en double diplôme entre télécom école de management et télécom sud paris. Via mes études, j'ai eu l'occasion de découvrir les mondes du réseau, du développement sous diverses formes, du hacking et des réalisations de gadgets DIY et ai décidé d'à mon tour explorer le web, cet univers en mouvement permanent où partage et apprentissage se lient en permanence.</p>
                     </div>
                     <div id="leSite">
-                    <li><h3 id="site"><img src="images/map.png" alt="map" id="map" width=20px/>  Le site :</h3></li>
+                    <h3 id="site"><img src="images/map.png" alt="map" id="map" width=20px/>  Le site :</h3>
                             <p>Grâce au site je voudrais</p>
-                                <ul><li>Rassembler et partager mes différentes réalisations pour que d'autres puissent les reproduire, améliorer, s'inspirer ou encore critiquer</li>
-                                    <li>Avoir un espace d'expression via des billets sur un blog</li>
-                                    <li>Tester différentes technologies via le site</li>
+                                <ul>
+                                    <p>Rassembler et partager mes différentes réalisations pour que d'autres puissent les reproduire, améliorer, s'inspirer ou encore critiquer</p>
+                                    <p>Avoir un espace d'expression via des billets sur un blog</p>
+                                    <p>Tester différentes technologies via le site</p>
                                 </ul>
                     </div>
                     <div id="techno">
                             <p>Les technologies utilisées sont: </p>
                                 <ul>
-                                    <li>CSS3 et HTML5</li>
-                                    <li>PHP5 et sa POO</li>
-                                    <li>jquery et jquery mobile</li>
+                                    <p>CSS3 et HTML5</p>
+                                    <p>PHP5 et sa POO</p>
+                                    <p>jquery et jquery mobile</p>
                                 </ul>
                     </div>
-                    <li><h3 id="news"><img src="images/news.png" alt="news" id="news" width=20px/>  News :</h3></Li>
+                    <p><h3 id="news"><img src="images/news.png" alt="news" id="news" width=20px/>  News :</h3></p>
                         <?php  include("includes/articles.php"); ?>
                 </ul>
             </section>
